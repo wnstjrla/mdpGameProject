@@ -1,0 +1,803 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 8061 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/AllUnity/JumpGameVer3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50140
+Successfully changed project path to: D:/AllUnity/JumpGameVer3
+D:/AllUnity/JumpGameVer3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/AllUnity/JumpGameVer3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     4030 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004066 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.6 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 2.640900 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.038900 ms MarkObjects: 2.411400 ms  DeleteObjects: 0.055200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Tuto/Scenes
+  artifactKey: Guid(45d72ca0d29dae14c91ac0a6d5f136a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tuto/Scenes using Guid(45d72ca0d29dae14c91ac0a6d5f136a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31b0bf93742a8d30447085bfa1dc89a') in 0.044047 seconds 
+  Import took 0.081058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Tuto/Prefabs
+  artifactKey: Guid(0b3b57d8ad8f28e419a5f914730521f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tuto/Prefabs using Guid(0b3b57d8ad8f28e419a5f914730521f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4fa00fe9541c6f76b4ee3aab6236a7') in 0.007586 seconds 
+  Import took 0.015211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.217807 seconds.
+  path: Assets/Scenes/OtherMain/LightingData.asset
+  artifactKey: Guid(84b4885f9b40c03428f214eb8a296982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OtherMain/LightingData.asset using Guid(84b4885f9b40c03428f214eb8a296982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f404cfaf1cf53e09baeacbf50ae3b') in 0.042627 seconds 
+  Import took 0.047131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Scenes/OtherMain/ReflectionProbe-0.exr
+  artifactKey: Guid(7b9f46ab853c5b64cbac565a7f9fe72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OtherMain/ReflectionProbe-0.exr using Guid(7b9f46ab853c5b64cbac565a7f9fe72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fc9eefd0849b02a8a9a4bad808923d') in 0.143351 seconds 
+  Import took 0.165260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.683421 seconds.
+  path: Assets/Scenes/FirstStage/LightingData.asset
+  artifactKey: Guid(f71c7918c26583a49a6e9dcfa0003796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstStage/LightingData.asset using Guid(f71c7918c26583a49a6e9dcfa0003796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812f71ca8f095d518b8915a83000e75e') in 0.060331 seconds 
+  Import took 0.080998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1809.968120 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs
+  artifactKey: Guid(772c387967176e8468f0efe0c73366a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs using Guid(772c387967176e8468f0efe0c73366a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdbac1a035fdebf973b145458f24ab6') in 0.006157 seconds 
+  Import took 0.045214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015682 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Ground.prefab
+  artifactKey: Guid(8df2eaca83e338f47a1b76de5ee140de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Ground.prefab using Guid(8df2eaca83e338f47a1b76de5ee140de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e39b7c06680ea0b9ae19198adca1a9f') in 0.083885 seconds 
+  Import took 0.117512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.163272 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover
+  artifactKey: Guid(d074d994fbcf0ba4b9ddb62573d7a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover using Guid(d074d994fbcf0ba4b9ddb62573d7a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95f70c577f6bb35d1e4a90738d26c96') in 0.006035 seconds 
+  Import took 0.044033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078181 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/grassWide.prefab
+  artifactKey: Guid(9a190063ff32b7244b1772ebeaae0768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/grassWide.prefab using Guid(9a190063ff32b7244b1772ebeaae0768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77c6bea5d83d39cd4cc79b17a449db1') in 0.117918 seconds 
+  Import took 0.134306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_3.prefab
+  artifactKey: Guid(a53f7c6e90c6ce045b0d593142279c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_3.prefab using Guid(a53f7c6e90c6ce045b0d593142279c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254e8a47d61786545646d605a962ce91') in 0.064809 seconds 
+  Import took 0.117300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt2.prefab
+  artifactKey: Guid(54cacc723ac62fc4f8ab90c02a8cbca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt2.prefab using Guid(54cacc723ac62fc4f8ab90c02a8cbca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd68355c8b7a329d69820c7cf59f08d9') in 0.043891 seconds 
+  Import took 0.076667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass1.prefab
+  artifactKey: Guid(2e6d8d6a62446c24489277baa14ccfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass1.prefab using Guid(2e6d8d6a62446c24489277baa14ccfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c7219fec9f1dd9669093f6974f29aa') in 0.046822 seconds 
+  Import took 0.065921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_2.prefab
+  artifactKey: Guid(4af73ca1a20543a4cb1b3250cec09fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_2.prefab using Guid(4af73ca1a20543a4cb1b3250cec09fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9035c021c5c2d9b1537b18833e5dfb73') in 0.043082 seconds 
+  Import took 0.070007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/grassWide1.prefab
+  artifactKey: Guid(831b95734a44a8c44bc6e6e6c19ac170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/grassWide1.prefab using Guid(831b95734a44a8c44bc6e6e6c19ac170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c037a51380b3286a9280728d087e3c51') in 0.044389 seconds 
+  Import took 0.048322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt.prefab
+  artifactKey: Guid(42bf7ef5f72ad834ea1dcb890f76aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt.prefab using Guid(42bf7ef5f72ad834ea1dcb890f76aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0925e497e3397c4ae9f4b204d6657a') in 0.046474 seconds 
+  Import took 0.073265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass4.prefab
+  artifactKey: Guid(159a8da65b8d3dd46a9e15942191049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass4.prefab using Guid(159a8da65b8d3dd46a9e15942191049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfafc8ba0361929ed1dbce549584488c') in 0.042460 seconds 
+  Import took 0.065422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt3.prefab
+  artifactKey: Guid(59027b8199d35f444b4c1f72da53f11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt3.prefab using Guid(59027b8199d35f444b4c1f72da53f11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7093bcf474893d4a6614c29b2d5b7d34') in 0.045513 seconds 
+  Import took 0.050627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt1.prefab
+  artifactKey: Guid(164c5283c6b01c34aa2efa4749544388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Dirt1.prefab using Guid(164c5283c6b01c34aa2efa4749544388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d5d67449fe5804a2ab89008ae01456') in 0.045223 seconds 
+  Import took 0.049797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass3.prefab
+  artifactKey: Guid(7838caee99dfa904485b288bdabaee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass3.prefab using Guid(7838caee99dfa904485b288bdabaee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389af83de63b7fb158b4a588cf508f63') in 0.043005 seconds 
+  Import took 0.053157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass5.prefab
+  artifactKey: Guid(f3c4f9b9d2c60d64798066f3a03ed25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass5.prefab using Guid(f3c4f9b9d2c60d64798066f3a03ed25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dc93eb102bdc19569c71efb51f48e5') in 0.039772 seconds 
+  Import took 0.042533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_1.prefab
+  artifactKey: Guid(eecd8c22fa020f14c84b8ccd38cb6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_1.prefab using Guid(eecd8c22fa020f14c84b8ccd38cb6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401c46d65f20a2e9fecab79ef3556a84') in 0.042409 seconds 
+  Import took 0.071879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass2.prefab
+  artifactKey: Guid(29bb44844b3d00a4b97eca4e49744519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass2.prefab using Guid(29bb44844b3d00a4b97eca4e49744519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20cbf149e026584a3752b581fa4389') in 0.040537 seconds 
+  Import took 0.043615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass.prefab
+  artifactKey: Guid(8a94fb64f7759a54cbf877ef4086c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundCover_Grass.prefab using Guid(8a94fb64f7759a54cbf877ef4086c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e45bfc6e650aae968bc748edec04100') in 0.043586 seconds 
+  Import took 0.074725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_4.prefab
+  artifactKey: Guid(337ae8adaf4288f41bb5d8d15133df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_4.prefab using Guid(337ae8adaf4288f41bb5d8d15133df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d8e6ec41ed665e812f5a051c85eaf0') in 0.047396 seconds 
+  Import took 0.050455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.971077 seconds.
+  path: Assets/Scenes/HighFirst.unity
+  artifactKey: Guid(b4849e81226d83b4db8f3ef0fbc4625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HighFirst.unity using Guid(b4849e81226d83b4db8f3ef0fbc4625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92e3c60df9d93db33bf88e72680ccf') in 0.010047 seconds 
+  Import took 0.016487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.956594 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes
+  artifactKey: Guid(16c4bdd85693d7b46a269e507dead34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes using Guid(16c4bdd85693d7b46a269e507dead34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79bb7587f1b9e4f49df8491427e4918') in 0.007346 seconds 
+  Import took 0.058634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.409035 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_1.prefab
+  artifactKey: Guid(96b358455c5411b49952de1719c28bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_1.prefab using Guid(96b358455c5411b49952de1719c28bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab1b8a964052d6a19cfdcc821ad3a90') in 0.023027 seconds 
+  Import took 0.081819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_2.prefab
+  artifactKey: Guid(25f6369a5ad1cb04f9004143c9c3f6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_2.prefab using Guid(25f6369a5ad1cb04f9004143c9c3f6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3426a7b8b95d0d1c33b440f11500d1') in 0.043945 seconds 
+  Import took 0.062409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_3.prefab
+  artifactKey: Guid(4d8c6ad0e7ee3084e80adf224f286c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_3.prefab using Guid(4d8c6ad0e7ee3084e80adf224f286c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c661ddb309ab4ae24e28f5348f20a8b5') in 0.047211 seconds 
+  Import took 0.052145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.329157 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_4.prefab
+  artifactKey: Guid(fc069d327e80412409f9bcd59df0f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_4.prefab using Guid(fc069d327e80412409f9bcd59df0f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1478ef137ee9d8f5d13baf2e6e4a0f8b') in 0.021069 seconds 
+  Import took 0.025233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_5.prefab
+  artifactKey: Guid(2bba90103ae5763499795fab1330f86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/GroundCover/GroundDark_Alpha_5.prefab using Guid(2bba90103ae5763499795fab1330f86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a258cfca49f84427dc63ef2852ee9323') in 0.043342 seconds 
+  Import took 0.063314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.583213 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush1_.prefab
+  artifactKey: Guid(ea8e195f26b8a6c4fae1c8ec5ce27431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush1_.prefab using Guid(ea8e195f26b8a6c4fae1c8ec5ce27431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69942d2a894d0dec72345d585159081') in 0.022526 seconds 
+  Import took 0.027284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush_block_solid.prefab
+  artifactKey: Guid(06945043c327a62489bb4acbf561d605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush_block_solid.prefab using Guid(06945043c327a62489bb4acbf561d605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c0b65e66d19000b40c0c5f6c2b7c34') in 0.037883 seconds 
+  Import took 0.068669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush_block.prefab
+  artifactKey: Guid(d9cfc56b2798724428884241c3c9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush_block.prefab using Guid(d9cfc56b2798724428884241c3c9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b791365af7dac2a977be200bd75868') in 0.042779 seconds 
+  Import took 0.048306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush_block_sparce.prefab
+  artifactKey: Guid(22b21d6085b44de44a86d82f152b60f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush_block_sparce.prefab using Guid(22b21d6085b44de44a86d82f152b60f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b5448c401f730bdecf3887e7831712') in 0.050228 seconds 
+  Import took 0.070173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush2_.prefab
+  artifactKey: Guid(b20d5b5c3d9853744b215bf668ba7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Bushes/Bush2_.prefab using Guid(b20d5b5c3d9853744b215bf668ba7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365070d089c70e012380aa5193e388e2') in 0.047805 seconds 
+  Import took 0.085283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.400988 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead.prefab
+  artifactKey: Guid(4f25960125b73694ba29ed352da5eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead.prefab using Guid(4f25960125b73694ba29ed352da5eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e4dab7d73e006cb48ecb23332225d4') in 0.406560 seconds 
+  Import took 0.411080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_SmallBig.prefab
+  artifactKey: Guid(f32343f86a163c146b29115ffec84f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_SmallBig.prefab using Guid(f32343f86a163c146b29115ffec84f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425cf0b9e24eaaee083d8cd96a6ddd09') in 0.043619 seconds 
+  Import took 0.083694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead3.prefab
+  artifactKey: Guid(c4e957b31333adb4290dc2d901304244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead3.prefab using Guid(c4e957b31333adb4290dc2d901304244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cb4d0f6b38cb9f43b2e69c893c1713') in 0.042881 seconds 
+  Import took 0.071839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead2.prefab
+  artifactKey: Guid(83b9c4e64d8300848bad6e9d524178d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead2.prefab using Guid(83b9c4e64d8300848bad6e9d524178d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa468828a2c90fa4f70e41506bbd057') in 0.041056 seconds 
+  Import took 0.056553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_Med.prefab
+  artifactKey: Guid(7fc280b86d6299e4bad2323225269f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_Med.prefab using Guid(7fc280b86d6299e4bad2323225269f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b72c8716d928309b75b88ddb82b8dbb') in 0.041476 seconds 
+  Import took 0.045902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallTall.prefab
+  artifactKey: Guid(c0a595ece3a39aa469b7ac0ef4c71198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallTall.prefab using Guid(c0a595ece3a39aa469b7ac0ef4c71198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acc38e7db1f35e5c44ee55a8e8478e9') in 0.044779 seconds 
+  Import took 0.051426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_MedSmall.prefab
+  artifactKey: Guid(3cd37c440821a7d43af61d1173582c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_MedSmall.prefab using Guid(3cd37c440821a7d43af61d1173582c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae60aefcb2bde5be70005a864fa857f') in 0.043335 seconds 
+  Import took 0.047001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallShort.prefab
+  artifactKey: Guid(981804b380020cd4d8f84dc31b5a33ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallShort.prefab using Guid(981804b380020cd4d8f84dc31b5a33ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34acc102d0db1fb0a0b1b671537499d2') in 0.042396 seconds 
+  Import took 0.055086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead1.prefab
+  artifactKey: Guid(25de8a0e730995e439f6e4f1a3e8619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead1.prefab using Guid(25de8a0e730995e439f6e4f1a3e8619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f56d4930493e58532ea3881477dfc') in 0.040627 seconds 
+  Import took 0.057657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead4.prefab
+  artifactKey: Guid(26e022ad47a3ede4885acbd08de08378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Dead4.prefab using Guid(26e022ad47a3ede4885acbd08de08378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa282ed768c129283f4c0bb1f679396') in 0.039045 seconds 
+  Import took 0.100560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_Med_Tall.prefab
+  artifactKey: Guid(6c47c679f8c94c54da912fd8df77c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_Med_Tall.prefab using Guid(6c47c679f8c94c54da912fd8df77c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202619115c9207000ecb28e9eb68963c') in 0.046193 seconds 
+  Import took 0.049769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallWide.prefab
+  artifactKey: Guid(439dc2f1ff2fd8445aa236b9ab374d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallWide.prefab using Guid(439dc2f1ff2fd8445aa236b9ab374d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3add2edc28af444fffedced436f377') in 0.046436 seconds 
+  Import took 0.052427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001500 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallMed.prefab
+  artifactKey: Guid(ef21b558c656e6c4babf6cd79f10c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallMed.prefab using Guid(ef21b558c656e6c4babf6cd79f10c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96359694b771b82c43186bf132a38a5d') in 0.043962 seconds 
+  Import took 0.063913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_SmallMed.prefab
+  artifactKey: Guid(4c757fd49179264499b757de3ebd781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_SmallMed.prefab using Guid(4c757fd49179264499b757de3ebd781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46419511647a5847094d0cd609c8c9e4') in 0.046034 seconds 
+  Import took 0.059430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_Small.prefab
+  artifactKey: Guid(16442bce94bec9544bc0a8ce19ac79ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_Small.prefab using Guid(16442bce94bec9544bc0a8ce19ac79ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62abb803a26ac5fc33b506d7d39944f') in 0.042421 seconds 
+  Import took 0.049210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001003 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallSmall.prefab
+  artifactKey: Guid(6645885df73c9af4e9bc0b6bcde8d156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/Evergreen_TallSmall.prefab using Guid(6645885df73c9af4e9bc0b6bcde8d156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc04f28070386d78398a8d356f91f5b') in 0.045977 seconds 
+  Import took 0.053688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.703476 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/EvergreenTallThick.prefab
+  artifactKey: Guid(96b9fb406d78e074ca325f11da12e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Prefabs/Trees/EvergreenTallThick.prefab using Guid(96b9fb406d78e074ca325f11da12e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b5abcf05556f9477f7fd2d6f5637e4') in 0.021490 seconds 
+  Import took 0.068803 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.3 MB.
+System memory in use after: 169.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 7.504100 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.177800 ms MarkObjects: 6.359600 ms  DeleteObjects: 0.744500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5600.954097 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Materials/Ground_Material.mat
+  artifactKey: Guid(9722df29c8070d740b7b9ed6e3047533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Materials/Ground_Material.mat using Guid(9722df29c8070d740b7b9ed6e3047533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c204724d046d370d416214e1536b1cc') in 0.451513 seconds 
+  Import took 0.455673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Materials/Pine Forest_LowPoly_material.mat
+  artifactKey: Guid(dcf83102dbc151842a9c72aefdfb4048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Materials/Pine Forest_LowPoly_material.mat using Guid(dcf83102dbc151842a9c72aefdfb4048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6a6f0bbe58b684cf7ab8a14ec29f32') in 0.033704 seconds 
+  Import took 0.040692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001089 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Materials/Pine Forest_LowPoly_Wind_material.mat
+  artifactKey: Guid(2193c0522328e344689b2160af3cdd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Materials/Pine Forest_LowPoly_Wind_material.mat using Guid(2193c0522328e344689b2160af3cdd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffc1d2139f2448a87722c79a4a69129') in 0.276490 seconds 
+  Import took 0.279942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.639719 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/Mesh/Pine Forest_LowPoly.fbx
+  artifactKey: Guid(4d14826c32fb27e40ae3bd1c78505c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/Mesh/Pine Forest_LowPoly.fbx using Guid(4d14826c32fb27e40ae3bd1c78505c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6dc89c4f6ec5b8fca345502b6e4174') in 0.328678 seconds 
+  Import took 0.409416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.454622 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/DemoScene/Vegetation_DemoScene.unity
+  artifactKey: Guid(403f04b2e975c614e8886cacc806ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/DemoScene/Vegetation_DemoScene.unity using Guid(403f04b2e975c614e8886cacc806ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccf78dd77c0c99fe2e982430a881c15') in 0.010160 seconds 
+  Import took 0.044182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005480 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1043ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.4 MB.
+System memory in use after: 169.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 2.649600 ms (FindLiveObjects: 0.137200 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.443400 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.511165 seconds.
+  path: Assets/AssetPacks/Pine Forest_LowPoly/DemoScene/VegitationPack.unity
+  artifactKey: Guid(c7e2b21345a3f674e99844db97285e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Pine Forest_LowPoly/DemoScene/VegitationPack.unity using Guid(c7e2b21345a3f674e99844db97285e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aace8ec5e84e7466ddc4b9f7272463') in 0.026953 seconds 
+  Import took 0.087502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.402273 seconds.
+  path: Assets/3DForge/Blueprints
+  artifactKey: Guid(574f265e6f0fcbd4789867de57a04f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints using Guid(574f265e6f0fcbd4789867de57a04f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568db12dda6a0b9782e3c69b32d9241e') in 0.007648 seconds 
+  Import took 0.014234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.615626 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints
+  artifactKey: Guid(8e5fb4c885ac40740a1f3e39403661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints using Guid(8e5fb4c885ac40740a1f3e39403661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96781c4b0c89d60c48f78c0ea6c701f') in 0.006403 seconds 
+  Import took 0.010612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353846 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK
+  artifactKey: Guid(e1be0aff3973a604281888962ab8fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK using Guid(e1be0aff3973a604281888962ab8fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957b1f2e3fb854b5c1c76ec3632cfae7') in 0.006346 seconds 
+  Import took 0.043986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495948 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement
+  artifactKey: Guid(481cd52ae7bc40443acf76a2af4efb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement using Guid(481cd52ae7bc40443acf76a2af4efb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f038a2896ffca2c194a3798bad477e0') in 0.006447 seconds 
+  Import took 0.061686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.102563 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS
+  artifactKey: Guid(d5495da2aa73206409d843ed6ca93dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS using Guid(d5495da2aa73206409d843ed6ca93dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756e9385256d21e2f0f4f526af718f22') in 0.039900 seconds 
+  Import took 0.060102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.630258 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers
+  artifactKey: Guid(e56d5e13a6abade4da1a51dde26c6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers using Guid(e56d5e13a6abade4da1a51dde26c6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597342a4ebdf79996a279469eeea116a') in 0.006929 seconds 
+  Import took 0.062970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002614 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_Blacksmith.prefab
+  artifactKey: Guid(a80b83884ffb26f41bc6c3343143484a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_Blacksmith.prefab using Guid(a80b83884ffb26f41bc6c3343143484a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa7bfee3c2a21fed6328d32098fa105') in 0.074736 seconds 
+  Import took 0.109812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_House.prefab
+  artifactKey: Guid(47d3dd0e10f4c214292987a17e0c2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_House.prefab using Guid(47d3dd0e10f4c214292987a17e0c2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773cc2a3c185b84885566cc28de168f') in 0.033928 seconds 
+  Import took 0.047751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/SettlementWalls.prefab
+  artifactKey: Guid(009e3dd12ac574144adcfd9ebd95add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/SettlementWalls.prefab using Guid(009e3dd12ac574144adcfd9ebd95add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d605c53b1fe7305bd68bfe4c1d6bf60') in 0.013368 seconds 
+  Import took 0.069358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_Settlement01.prefab
+  artifactKey: Guid(2c169ebb482516542888a6e2fee8b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_Settlement01.prefab using Guid(2c169ebb482516542888a6e2fee8b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ce259f9562f6f4b51a67e76880189f') in 0.041238 seconds 
+  Import took 0.063045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.287734 seconds.
+  path: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/Documentation/Premium BLUEPRINTS Frontier Settlement INFO.rtf
+  artifactKey: Guid(3224465466686194f81e4ace72d30c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/Documentation/Premium BLUEPRINTS Frontier Settlement INFO.rtf using Guid(3224465466686194f81e4ace72d30c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c415483a2a0d4fcdfeb1e6656c8673d') in 0.025281 seconds 
+  Import took 0.383471 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
